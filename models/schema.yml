@@ -5,13 +5,11 @@ sources:
     schema: gz_raw_data
     tables:
       - name: sales
-        schema: raw_gz_sales
-        tables:
+        identifier: raw_gz_sales
       - name: product
-        schema: raw_gz_product
-        tables: 
+        identifier: raw_gz_newproduct
       - name: ship
-        schema: raw_gz_ship
-        tables: 
+        identifier: raw_gz_ship
+
 
 
